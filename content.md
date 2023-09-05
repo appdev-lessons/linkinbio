@@ -54,21 +54,34 @@ LTI{Load Link in bio assignment}(https://grades.firstdraft.com/launch)[S9ymPy6WC
 
 Follow the instructions from the "Hello, World" HTML Lesson to:
 
-* [fork the assignment](https://learn.firstdraft.com/lessons/106#fork-the-project-repository), leaving the name alone so that you end up with a new `github.com/<your-username>/links` repository; and
-* [create a Codespaces workspace](https://learn.firstdraft.com/lessons/106#start-your-first-codespace).
+* [fork the assignment](https://learn.firstdraft.com/lessons/55#fork-the-project-repository), leaving the name alone so that you end up with a new `github.com/<your-username>/links` repository; 
+* in your fork of the repository, [enable GitHub Pages deployment](https://learn.firstdraft.com/lessons/55#enable-github-pages-deployment); and 
+* [create a Codespaces workspace](https://learn.firstdraft.com/lessons/55#start-your-first-codespace).
 
 ## Getting started
 
-* Once you are in the Codespaces workspace, you can run `rackup` as usual at the bash prompt to start the `puma` web server and begin adding files and viewing the changes in your live app preview. More about opening your [live app preview with `rackup` here](https://learn.firstdraft.com/lessons/106#rackup-your-live-application-preview).
+* Once you are in the Codespaces workspace, you can run `bin/dev` as usual to startup the `puma` web server and begin adding files and viewing the changes in your live app preview. More about opening your [live app preview with `bin/dev` here](https://learn.firstdraft.com/lessons/61#server-and-ports).
 
 * Create a file called `index.html` in the root folder. Add the text "My link in bio" to that `index.html` file and make sure that it shows up when you refresh your app preview.
 
-* [Make a commit and push the changes](https://learn.firstdraft.com/lessons/106#git-commit-and-push) to publish the new `index.html` file on the `<your-username>/links` repo.
+* [Make a commit and push the changes](https://learn.firstdraft.com/lessons/50) to publish the new `index.html` file on the `<your-username>/links` repo. This will trigger the GitHub Action to deploy your new page!
 
-* In a bash prompt in the terminal tab, you can [already run `rake grade`](https://learn.firstdraft.com/lessons/125) to see a few simple specs that will be automatically graded. 
+* With a fresh terminal open, you can [already run `rake grade`](https://learn.firstdraft.com/lessons/125) to see a few simple specs that will be automatically graded. 
   * Just be sure to copy-paste the access token you got when you clicked the "Load assignment" button. If you closed that tab and need to get the token again, just click the "Load assignment" button again to open the interface (no need to do any forking this time).
 
-Remember to commit early and commit often, occasionally pushing your changes to publish them on GitHub for safekeeping.
+Remember to [commit early and commit often, occasionally pushing your changes](https://learn.firstdraft.com/lessons/50) to publish them on GitHub and trigger automatic deploys. 
+
+### Where is the page deployed?
+
+Remember in "Hello, World" when the page deployed to `https://<your-username>.github.io/hello-world/`?
+
+In this project, since you named the repository `links` and you setup GitHub Pages to deploy from the `/(root)` folder of the `main` branch, any content in your `<your-username>/links` repo (e.g. an `index.html`), will be found at:
+
+`https://<your-username>.github.io/links/`
+
+Visit the page and see for yourself! Do you see the "My link in bio" text that you added? You will need to be patient and wait a few minutes after every push while the deployment runs. Try waiting and refreshing the page a few times.
+
+Aha! So _any_ project that you deploy from your personal project repositories will be hosted at the domain `https://<your-username>.github.io` provided to you by GitHub. It's just a matter of deploying the repository from a branch in the settings and then navigating to the correct URL path!
 
 ## First things first — the content
 
@@ -495,20 +508,16 @@ Our page now looks [something like this](https://rag.hu/04-layout).
 
 ## Deploy!
 
-Similar to "Hello, World", you have two options for deployment of your static app:
+Have you made a lot of progress? Want to see your site live at `https://<your-username>.github.io/links/`? 
 
-1. **Fly.io**. We recommend this option, since it works for dynamic web apps as well and we will use it later in the course. However, it does require you to enter credit card information. You will not be charged, but you must have a credit card to enter into your profile.
-
-2. **GitHub Pages**. This option is completely free and does not require a credit card, but it will only work for static websites.
-
-Depending on which option you choose, find the appropriate next lesson on Canvas to deploy the “Link in bio” web site.
+Well, as we saw previously, all you need to do is [enable GitHub Pages deployment](https://learn.firstdraft.com/lessons/55#enable-github-pages-deployment) if you haven't already, then [commit and push](https://learn.firstdraft.com/lessons/50) to trigger the GitHub deployment action. After a few minutes your updates will be online for anyone in the world to view!
 
 ## This is the end of the required portion
 
 This is the end of the required portion of this assignment. 
 
-* Run `rake grade` in the bash prompt and make sure all the specs pass to get full credit. 
-* In Canvas, submit the URL of your deployed app, either `.fly.dev` or `.github.io` (_not_ your Codespaces live app preview URL). If you are willing to share your creation, please also include "Add me to the showcase" in the submission text area.
+* Run `rake grade` and make sure all the specs pass to get full credit. 
+* In Canvas, submit the URL of your deployed app (`<your-username>.github.io/links`, _not_ your Codespaces preview). If you are willing to share your creation, please also include "Add me to the showcase" in the submission text area.
 
 ## Make it your own
 
