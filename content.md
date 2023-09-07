@@ -54,18 +54,18 @@ LTI{Load Link in bio assignment}(https://grades.firstdraft.com/launch)[S9ymPy6WC
 
 Follow the instructions from the "Hello, World" HTML Lesson to:
 
-* [fork the assignment](https://learn.firstdraft.com/lessons/106#fork-the-project-repository), leaving the name alone so that you end up with a new `github.com/<your-username>/links` repository; and
-* [create a Codespaces workspace](https://learn.firstdraft.com/lessons/106#start-your-first-codespace).
+* [fork the assignment](https://learn.firstdraft.com/lessons/106-hello-world#fork-the-project-repository), leaving the name alone so that you end up with a new `github.com/<your-username>/links` repository; and
+* [create a Codespaces workspace](https://learn.firstdraft.com/lessons/106-hello-world#start-your-first-codespace).
 
 ## Getting started
 
-* Once you are in the Codespaces workspace, you can run `rackup` as usual at the bash prompt to start the `puma` web server and begin adding files and viewing the changes in your live app preview. More about opening your [live app preview with `rackup` here](https://learn.firstdraft.com/lessons/106#rackup-your-live-application-preview).
+* Once you are in the Codespaces workspace, you can run `rackup` as usual at the bash prompt to start the `puma` web server and begin adding files and viewing the changes in your live app preview. More about opening your [live app preview with `rackup` here](https://learn.firstdraft.com/lessons/106-hello-world#rackup-your-live-application-preview).
 
 * Create a file called `index.html` in the root folder. Add the text "My link in bio" to that `index.html` file and make sure that it shows up when you refresh your app preview.
 
-* [Make a commit and push the changes](https://learn.firstdraft.com/lessons/106#git-commit-and-push) to publish the new `index.html` file on the `<your-username>/links` repo.
+* [Make a commit and push the changes](https://learn.firstdraft.com/lessons/106-hello-world#git-commit-and-push) to publish the new `index.html` file on the `<your-username>/links` repo.
 
-* In a bash prompt in the terminal tab, you can [already run `rake grade`](https://learn.firstdraft.com/lessons/125) to see a few simple specs that will be automatically graded. 
+* In a bash prompt in the terminal tab, you can [already run `rake grade`](https://learn.firstdraft.com/lessons/125-using-rake-grade) to see a few simple specs that will be automatically graded. 
   * Just be sure to copy-paste the access token you got when you clicked the "Load assignment" button. If you closed that tab and need to get the token again, just click the "Load assignment" button again to open the interface (no need to do any forking this time).
 
 Remember to commit early and commit often, occasionally pushing your changes to publish them on GitHub for safekeeping.
