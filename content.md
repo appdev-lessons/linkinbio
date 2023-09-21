@@ -510,7 +510,7 @@ Depending on which option you choose, find the appropriate next lesson on Canvas
 This is the end of the required portion of this assignment. 
 
 * Run `rake grade` in the bash prompt and make sure all the specs pass to get full credit. 
-* In Canvas, submit the URL of your deployed app, either `.fly.dev` or `.github.io` (_not_ your Codespaces live app preview URL). If you are willing to share your creation, please also include "Add me to the showcase" in the submission text area.
+* In Canvas, submit the URL of your deployed app, either `.fly.dev` or `onrender.com` or `.github.io` (_not_ your Codespaces live app preview URL). If you are willing to share your creation, please also include "Add me to the showcase" in the submission text area.
 
 ## Make it your own
 
