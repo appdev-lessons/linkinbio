@@ -2,7 +2,7 @@
 
 <div class="bg-blue-100 py-1 px-5" markdown="1">
 
-[Here is a brief video demonstration to get you started](https://share.descript.com/view/G5kt5gvYk29). You should not rely entirely on the video to complete this lesson, but I wanted to give you a quick, visual overview of the process. As you watch the video, pause it frequently and **READ** the relevant lesson sections as you are going through the steps. There is much more detail in the text than in the video.
+[Here is a brief video demonstration to get you started](https://share.descript.com/view/Y4oUaIaI1pU). You should not rely entirely on the video to complete this lesson, but I wanted to give you a quick, visual overview of the process. As you watch the video, pause it frequently and **READ** the relevant lesson sections as you are going through the steps. There is much more detail in the text than in the video.
 </div>
 
 Some social media apps, in particular Instagram, do not allow you to include links to other pages in posts. The only place you can include a URL is in your bio, and you can only include one. This soon led to a trend of people promoting something with a post, but including "Link in bio!" in the caption. They would then update the solitary link in their bio to the latest thing they wanted to promote.
